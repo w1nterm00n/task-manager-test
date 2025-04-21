@@ -20,7 +20,6 @@ git clone https://github.com/w1nterm00n/task-manager-test.git
 Перейдите в папку `frontend`, установите зависимости и запустите сервер:
 
 ```bash
-cd frontend
 npm install
 npm run dev
 ```
@@ -33,7 +32,6 @@ npm run dev
 В новой вкладке терминала перейдите в папку `backend` и запустите сервер:
 
 ```bash
-cd backend
 node app.js
 ```
 
