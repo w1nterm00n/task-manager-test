@@ -35,18 +35,15 @@ function App() {
     <div className='mainContainer'>
       <h1>Tasks:</h1>
       <div className="AllTasksContainer">
-
-
         {tasks.map(task => (        
           <div className="taskContainer" key={task.id}>
-          <input type="checkbox" checked={task.completed} onChange={() => setTaskStatus(task.id)}/>
-          <label htmlFor="vehicle1"> {task.title} </label>
+            <input type="checkbox" checked={task.completed} onChange={() => setTaskStatus(task.id)}/>
+            <label htmlFor="vehicle1"> {task.title} </label>
           </div>
         ))}
-
-
       </div>
 
+      <button type="button" class="btn btn-primary">Add new task</button>
 
     </div>
   );
