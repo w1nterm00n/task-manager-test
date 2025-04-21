@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import { Link } from "react-router-dom";
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 function App() {
   const [tasks, setTasks] = useState([]);
@@ -43,7 +45,9 @@ function App() {
         ))}
       </div>
 
-      <button type="button" class="btn btn-primary">Add new task</button>
+      <Link to="newTask">
+        <button type="button" className="btn btn-primary" >Add new task</button>
+      </Link>
 
     </div>
   );

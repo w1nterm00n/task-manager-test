@@ -1,9 +1,9 @@
-.mainContainer{
+.mainContainer, .formContainer{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .AllTasksContainer{
@@ -21,4 +21,12 @@
 
 .taskContainer > input {
   width: 20px;
+}
+
+.backButton {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border: 0;
+  background-color: transparent;
 }

@@ -1,17 +1,12 @@
 [
   {
     "id": 1,
-    "title": "Wash dishes",
+    "title": "Тестовая задача 1",
     "completed": false
   },
   {
-    "id": 2,
-    "title": "Take over the world",
-    "completed": true
-  },
-  {
-    "id": 1745150506715,
-    "title": "Купить картошку",
-    "completed": true
+    "id": 1745238030342,
+    "title": "Тестовая задача 2",
+    "completed": false
   }
 ]
