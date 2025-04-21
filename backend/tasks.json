@@ -7,11 +7,11 @@
   {
     "id": 2,
     "title": "Take over the world",
-    "completed": true
+    "completed": false
   },
   {
     "id": 1745150506715,
     "title": "Купить картошку",
-    "completed": false
+    "completed": true
   }
 ]
